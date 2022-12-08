@@ -1,0 +1,32 @@
+{
+    "name": "kfoobar/flush-horizon",
+    "description": "Package to flush failed jobs for Laravel Horizon",
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Villa",
+            "email": "david@kfoobar.se"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/console": ">=8.0",
+        "illuminate/redis": ">=8.0",
+        "illuminate/support": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KFoobar\\Horizon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KFoobar\\Horizon\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
