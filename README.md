@@ -27,7 +27,7 @@ php artisan horizon:flush
 
 To flush all data, use this command:
 ```
-php artisan horizon:flush
+php artisan horizon:reset
 ```
 
 ## Contributing
