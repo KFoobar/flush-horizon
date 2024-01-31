@@ -1,6 +1,6 @@
 {
     "name": "kfoobar/flush-horizon",
-    "description": "Package to flush failed jobs for Laravel Horizon",
+    "description": "A Laravel package designed to efficiently manage and clear failed jobs from Horizon.",
     "type": "plugin",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": ">=7.4",
         "illuminate/console": ">=8.0",
         "illuminate/redis": ">=8.0",
         "illuminate/support": ">=8.0"

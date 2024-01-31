@@ -19,7 +19,7 @@ class ResetHorizonCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Flush all data for Horizon';
+    protected $description = 'Flush all Horizon-related data';
 
     /**
      * Execute the console command.

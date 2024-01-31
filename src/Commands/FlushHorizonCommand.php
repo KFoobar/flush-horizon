@@ -31,7 +31,7 @@ class FlushHorizonCommand extends Command
         $count = $this->flush();
 
         is_numeric($count = $this->flush())
-            ? $this->components->info('Failed jobs ('.$count.') flushed successfully.')
+            ? $this->components->info('Failed jobs (' . $count . ') flushed successfully.')
             : $this->components->info('Skipped! Found no keys to flush.');
 
         return Command::SUCCESS;
